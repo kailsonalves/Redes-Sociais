@@ -3,6 +3,10 @@ const getCSS = (variavel) => {
     getPropertyValue(variavel)
     }
 
+    const tickConfig = {
+        color: getCSS('--primary-color'),
+        size: 16,
+        family: getCSS('--font')
+        }
 
-
-    export {getCSS}
+    export {getCSS, tickConfig}
